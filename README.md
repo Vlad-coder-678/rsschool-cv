@@ -1,1 +1,1 @@
-https://Vlad-coder-678.github.io/rsschool-cv/cv
+https://Vlad-coder-678.github.io/rsschool-cv/
