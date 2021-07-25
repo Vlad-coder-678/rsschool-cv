@@ -1,0 +1,270 @@
+html,
+body {
+  overflow-x: hidden;
+  background-color: #f2f2f2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.title {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.desc {
+  font-size: 1rem;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* header */
+
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+}
+
+.header::after {
+  content: "";
+  width: 75%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+}
+
+.header-line {
+  position: absolute;
+  top: 0;
+  right: 80px;
+  width: 2px;
+  height: 100px;
+  background-color: black;
+}
+
+.header-box {
+  position: absolute;
+  top: 125px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
+
+.name-down {
+  margin-left: 235px;
+  font-size: 2rem;
+}
+
+/* left section */
+
+.aside {
+  position: relative;
+  box-sizing: border-box;
+  top: 0;
+  left: 50px;
+  min-width: 250px;
+  flex-basis: 250px;
+  background-color: black;
+  overflow: hidden;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.name-up {
+  font-size: 2rem;
+  margin: 27px 0 27px 27px;
+  letter-spacing: 0.13rem;
+}
+
+.desc-up {
+  font-size: 1rem;
+  margin: 0 0 27px 27px;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: sans-serif;
+  letter-spacing: 0.01rem;
+}
+
+.ava {
+  width: 100%;
+}
+
+.article-about {
+  margin: 25px;
+}
+
+.article-about .desc {
+  font-size: 0.8rem;
+}
+
+.white-line {
+  width: 50%;
+  height: 2px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.aside-contacts {
+  color: white;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 25px;
+}
+
+.aside-li {
+  display: flex;
+  align-items: center;
+  line-height: 10px;
+  padding: 10px 0;
+}
+.aside-li:last-child {
+  margin-bottom: 30px;
+}
+.aside-li svg {
+  margin-right: 10px;
+}
+
+.aside-li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* right section */
+
+.content {
+  margin-top: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.block {
+  box-sizing: border-box;
+  width: 90%;
+  align-self: flex-end;
+}
+
+.geo {
+  display: flex;
+  justify-content: flex-start;
+}
+.geo .date {
+  font-size: 0.8rem;
+  margin: 0;
+}
+.geo .location {
+  font-size: 0.8rem;
+  margin: 0;
+  margin-left: 25px;
+}
+.vocation {
+  font-size: 1rem;
+}
+/* skills */
+
+.skills-li {
+  display: flex;
+  align-items: center;
+}
+.skills-li svg {
+  margin-right: 10px;
+}
+.docs-content {
+  display: flex;
+}
+.doc {
+  margin: 10px;
+}
+.sertificate-img-wrap {
+  width: 180px;
+  height: 120px;
+}
+.sertificate-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.project-img-wrap {
+  width: 250px;
+  height: 180px;
+}
+.project-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.projects-content {
+  display: flex;
+}
+
+.english-knowledge {
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* footer section */
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+}
+.footer-nav li {
+  margin: 10px;
+}
+.logo-rs-lang {
+  width: 100px;
+  height: 60px;
+}
+.logo-rs-lang img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
