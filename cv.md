@@ -1,1 +1,1 @@
-https://Vlad-coder-678.github.io/rsschool-cv/cv
+My goal at this stage is to get a job on simple projects. Try my skills in the developer community in order to assess my strengths and understand where to go next.
