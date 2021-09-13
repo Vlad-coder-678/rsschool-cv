@@ -1,6 +1,6 @@
 html,
 body {
-  behavior: smooth;
+  scroll-behavior: smooth;
   overflow-x: hidden;
   background-color: #f2f2f2;
 }
